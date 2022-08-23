@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 23px 20px;
+  padding: 23px 50px;
   gap: 30px;
   z-index: 10;
     position: relative;
@@ -67,5 +67,11 @@
       border: 2px solid $secondary;
 
     }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .container {
+    padding: 20px !important;
   }
 }
