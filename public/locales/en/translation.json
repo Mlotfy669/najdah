@@ -1,28 +1,34 @@
 {
-        "header": {
-                "login": "Login"
-        },
-        "navbar": {
-                "main": "Home",
-                "services": "Services",
-                "about": "Najdah About",
-                "app": "Najdah App",
-                "blog": "Blog",
-                "contact": "Contact Us",
-                "book":"Book Now"
-        },
-        "banner": {
-                "head":"Book an hourly cleaning service",
-                "subhead":"And rest every day",
-                "bookbtn":"Book Now",
-                "appbtn":"Download App Now"
-        },
-        "services":{
-                "head":"The Services",
-                "paragraph":"Learn about our available services Learn about our available services.",
-                "cardTitle1":"Visits System",
-                "cardTitle2":"Visits System",
-                "cardParagraph1":"The service is provided by providing a trained and qualified human cadre with a system of scheduled visits for a period of 4 hours for each visit, through which the home is taken care of.",
-                "learnMore":"Know More"
-        }
+	"header": {
+		"login": "Login"
+	},
+	"navbar": {
+		"main": "Home",
+		"services": "Services",
+		"about": "Najdah About",
+		"app": "Najdah App",
+		"blog": "Blog",
+		"contact": "Contact Us",
+		"book": "Book Now"
+	},
+	"banner": {
+		"head": "Book an hourly cleaning service",
+		"subhead": "And rest every day",
+		"bookbtn": "Book Now",
+		"appbtn": "Download App Now"
+	},
+	"services": {
+		"head": "The Services",
+		"paragraph": "Learn about our available services Learn about our available services.",
+		"cardTitle1": "Visits System",
+		"cardTitle2": "Visits System",
+		"cardParagraph1": "The service is provided by providing a trained and qualified human cadre with a system of scheduled visits for a period of 4 hours for each visit, through which the home is taken care of.",
+		"learnMore": "Know More"
+	},
+	"footer": {
+		"menu": "Menu",
+		"downloadApp": "Download App Now",
+		"followUs": "Follow Us",
+		"rights": "Rights reserved"
+	}
 }

@@ -1,0 +1,89 @@
+@import '../../assets/helper';
+
+
+.container {
+	width: 100%;
+	height: 281px;
+	background-color: $primary;
+	color: $white;
+
+	.wrapper {
+		max-width: 1440px;
+		width: 100%;
+		margin: auto;
+		height: 100%;
+		padding: 0px 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.rights {
+		flex: 2
+	}
+
+	.download {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+	}
+
+	.menu {
+		flex: 1;
+		.links {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap:16px;
+			a {
+				transition: 0.3s;
+				overflow: hidden;
+				position: relative;
+				padding-bottom: 5px;
+				cursor: pointer;
+
+				&:hover {
+					&:after {
+						left: 0
+					}
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					width: 100%;
+					height: 3px;
+					background-color: $secondary;
+					bottom: -1px;
+					left: -100%;
+					border-radius: 50%;
+					transition: 0.3s;
+				}
+			}
+		}
+	}
+
+	.social {
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		flex: 1;
+		.socialImages {
+			img{
+				width: 20px;
+				height: 20px;
+				margin-right:16px
+			}
+
+		}
+
+
+
+
+
+			}
+
+
+}
