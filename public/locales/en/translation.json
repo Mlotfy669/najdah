@@ -1,0 +1,14 @@
+{
+        "header": {
+                "login": "Login"
+        },
+        "navbar": {
+                "main": "Home",
+                "services": "Services",
+                "about": "Najdah About",
+                "app": "Najdah App",
+                "blog": "Blog",
+                "contact": "Contact Us",
+                "book":"Book Now"
+        }
+}

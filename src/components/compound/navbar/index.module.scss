@@ -1,0 +1,71 @@
+@import '../../assets/helper';
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 23px 20px;
+  gap: 30px;
+  z-index: 10;
+    position: relative;
+  .logoContainer {
+    cursor: pointer;
+    margin-inline-end: auto;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: $white;
+    a {
+      transition: 0.3s;
+      overflow: hidden;
+      position: relative;
+      padding-bottom: 5px;
+      cursor: pointer;
+      &:hover {
+        &:after {
+          left:0
+        }
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: $secondary;
+        bottom: -1px;
+        left: -100%;
+        border-radius: 50%;
+        transition: 0.3s;
+      }
+    }
+  }
+  .book {
+    height: 50px;
+    border-radius: 24px;
+    background-color: $secondary;
+    color: $white;
+    outline: none;
+    border: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 48px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid transparent ;
+    &:hover {
+      background-color: $white;
+      color: $secondary;
+      border: 2px solid $secondary;
+
+    }
+  }
+}
