@@ -10,5 +10,11 @@
                 "blog": "Blog",
                 "contact": "Contact Us",
                 "book":"Book Now"
+        },
+        "banner": {
+                "head":"Book an hourly cleaning service",
+                "subhead":"And rest every day",
+                "bookbtn":"Book Now",
+                "appbtn":"Download App Now"
         }
 }
