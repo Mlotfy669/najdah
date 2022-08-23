@@ -30,5 +30,9 @@
 		"downloadApp": "Download App Now",
 		"followUs": "Follow Us",
 		"rights": "Rights reserved"
+	},
+	"contact": {
+		"contactus": "Contact Us",
+		"contactWithForm": "Contact Us by filling out the form Or by"
 	}
 }
