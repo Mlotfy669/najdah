@@ -9,32 +9,38 @@
                 "app": "Najdah App",
                 "blog": "Blog",
                 "contact": "Contact Us",
-                "book":"Book Now"
+                "book": "Book Now"
         },
         "banner": {
-                "head":"Book an hourly cleaning service",
-                "subhead":"And rest every day",
-                "bookbtn":"Book Now",
-                "appbtn":"Download App Now"
+                "head": "Book an hourly cleaning service",
+                "subhead": "And rest every day",
+                "bookbtn": "Book Now",
+                "appbtn": "Download App Now"
         },
-        "services":{
-                "head":"The Services",
-                "paragraph":"Learn about our available services Learn about our available services.",
-                "cardTitle1":"Visits System",
-                "cardTitle2":"Visits System",
-                "cardParagraph1":"The service is provided by providing a trained and qualified human cadre with a system of scheduled visits for a period of 4 hours for each visit, through which the home is taken care of.",
-                "learnMore":"Know More"
+        "services": {
+                "head": "The Services",
+                "paragraph": "Learn about our available services Learn about our available services.",
+                "cardTitle1": "Visits System",
+                "cardTitle2": "Visits System",
+                "cardParagraph1": "The service is provided by providing a trained and qualified human cadre with a system of scheduled visits for a period of 4 hours for each visit, through which the home is taken care of.",
+                "learnMore": "Know More"
         },
-        "about":{
-                "head":"About Najdah",
-                "paragraph":"Najda is a brand owned by Abdul Majeed Abdulrahman Al Jeraisy for Human Resources, a leading economic edifice established in (2013); Since then, it has occupied a position of excellence in the field of human resources in the Kingdom of Saudi Arabia, thanks to the concerted efforts of those in charge of it, including CEOs, branch managers and department officials; Which enabled it to carry the banner of creativity and development, to be the best choice for all its clients from all over the Kingdom of Saudi Arabia, with a capital estimated at 100,000,000 Saudi riyals.",
-                "more":"Know More",
-                "contact":"Contact Us",
-                "circleTitle1":"We bring the best",
-                "circleTitle2":"Human Cadres",
-                "circleTitle3":"Advanced Technologies",
-                "circleParagraph1":"The workforce in Saudi Arabia is the responsibility of all of us.",
-                "circleParagraph2":"The workforce in Saudi Arabia is the responsibility of all of us",
-                "circleParagraph3":"Pay close attention to work and etiquette; To provide professional services of the highest quality and efficiency"
+        "about": {
+                "head": "About Najdah",
+                "paragraph": "Najda is a brand owned by Abdul Majeed Abdulrahman Al Jeraisy for Human Resources, a leading economic edifice established in (2013); Since then, it has occupied a position of excellence in the field of human resources in the Kingdom of Saudi Arabia, thanks to the concerted efforts of those in charge of it, including CEOs, branch managers and department officials; Which enabled it to carry the banner of creativity and development, to be the best choice for all its clients from all over the Kingdom of Saudi Arabia, with a capital estimated at 100,000,000 Saudi riyals.",
+                "more": "Know More",
+                "contact": "Contact Us",
+                "circleTitle1": "We bring the best",
+                "circleTitle2": "Human Cadres",
+                "circleTitle3": "Advanced Technologies",
+                "circleParagraph1": "The workforce in Saudi Arabia is the responsibility of all of us.",
+                "circleParagraph2": "The workforce in Saudi Arabia is the responsibility of all of us",
+                "circleParagraph3": "Pay close attention to work and etiquette; To provide professional services of the highest quality and efficiency"
+        },
+        "footer": {
+                "menu": "Menu",
+                "downloadApp": "Download App Now",
+                "followUs": "Follow Us",
+                "rights": "Rights reserved"
         }
 }
