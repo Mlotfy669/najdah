@@ -24,11 +24,30 @@ const Services = () => {
 			<div className={styles.cards}>
 				<div className={styles.card}>
 					<form className={styles.form}>
-						<div className={styles.inputBox}>
-							<span className={styles.details}>Name</span>
-							<input type='text' placeholder='Enter your name' required />
+						<div className={styles.formDetails}>
+							<div className={styles.inputBox}>
+								<span className={styles.details}>{t(`contact.name`)}</span>
+								<input type='text' placeholder='Enter your name' required />
+							</div>
+
+							<div className={styles.inputBox}>
+								<span className={styles.details}>{t(`contact.email`)}</span>
+								<input type='email' placeholder='Enter your Email' required />
+							</div>
+							<div className={styles.inputBox}>
+								<span className={styles.details}>{t(`contact.phone`)}</span>
+								<input type='phone' placeholder='Enter your phone' required />
+							</div>
+							<div className={styles.inputBox}>
+								<span className={styles.details}>{t(`contact.message`)}</span>
+								<textarea
+									type='phone'
+									placeholder='Enter your Message'
+									required
+								/>
+							</div>
 						</div>
-						{/* <button className={styles.more}>{t(`services.learnMore`)}</button> */}
+						<button className={styles.send}>{t(`contact.send`)}</button>
 					</form>
 				</div>
 			</div>

@@ -1,5 +1,6 @@
-@import '../../assets/helper';
+/** @format */
 
+@import "../../assets/helper";
 
 .container {
 	width: 100%;
@@ -12,18 +13,20 @@
 		width: 100%;
 		margin: auto;
 		height: 100%;
-		padding: 23px 50px;
+		padding: 50px 50px;
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
 	}
 
 	.rights {
-		flex: 2
+		flex: 2;
+		height: 100%;
 	}
 
 	.download {
 		flex: 1;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -32,11 +35,12 @@
 
 	.menu {
 		flex: 1;
+		height: 100%;
 		.links {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap:16px;
+			gap: 16px;
 			a {
 				transition: 0.3s;
 				overflow: hidden;
@@ -46,7 +50,7 @@
 
 				&:hover {
 					&:after {
-						left: 0
+						left: 0;
 					}
 				}
 
@@ -66,24 +70,18 @@
 	}
 
 	.social {
-		display:flex;
+		display: flex;
+		height: 100%;
+		gap: 16px;
 		flex-direction: column;
 		align-items: center;
 		flex: 1;
 		.socialImages {
-			img{
+			img {
 				width: 20px;
 				height: 20px;
-				margin-right:16px
+				margin-right: 16px;
 			}
-
 		}
-
-
-
-
-
-			}
-
-
+	}
 }
